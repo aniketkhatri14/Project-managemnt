@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
+  },
+  "include": ["src/**/*", "src/data/**/*.json", "src/prisma/**/*"],
+  "exclude": ["node_modules", "dist"],
+  "files": [
+    "src/index.ts",
+    "src/prisma/seed.ts"
+  ]
+}
